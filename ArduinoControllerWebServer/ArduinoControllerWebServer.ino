@@ -23,8 +23,8 @@
 #include <SPI.h>
 #include <Arduino.h>
 #include "WebServer.h" // Webduino (https://github.com/sirleech/Webduino)
-#include <OneWire.h>
-#include <DallasTemperature.h>
+#include "OneWire.h" // OneWire (https://github.com/ppicazo/OneWire)
+#include "DallasTemperature.h" // DallasTemperature (https://github.com/mysensors/Arduino/tree/master/libraries/DallasTemperature)
 
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xE4, 0xDE, 0x35 }; // MAC-адрес нашего устройства

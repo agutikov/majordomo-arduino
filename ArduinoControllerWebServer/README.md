@@ -16,3 +16,14 @@
                 T<номер устройства на шине>:<HEX адрес устройства>:<текущая температура в градусах цельсия>;[...]
                 (пример T0:1060CF59010800E3:24.06;T1:109ABE59010800FE:24.56;)
 
+
+Скачать зависимости:
+$ git clone https://github.com/sirleech/Webduino.git
+$ git clone https://github.com/ppicazo/OneWire
+$ git clone https://github.com/mysensors/Arduino.git
+                
+Добавить библиотеки:               
+Arduino IDE меню -> Sketch -> Import Library -> Add Library 
+добавить все три библиотеки: OneWire, Webduino и Arduino/libraries/DallasTemperature
+
+
